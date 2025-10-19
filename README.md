@@ -1,5 +1,7 @@
 # GenServer.io
 
+[![preview](./priv/static/images/preview.png)](https://genserver.io)
+
 **Real-time multiplayer games powered by Elixir, Phoenix LiveView, and GenServer**
 
 A collection of fun, interactive games built to showcase the power of Elixir's concurrency model and Phoenix LiveView's real-time capabilities. Each game is a learning project demonstrating clean OTP patterns and WebSocket-based multiplayer architecture.
