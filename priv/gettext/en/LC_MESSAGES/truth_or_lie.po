@@ -1,0 +1,98 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:353
+#, elixir-autogen, elixir-format
+msgid " (You)"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:459
+#, elixir-autogen, elixir-format
+msgid "Enter answer"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:303
+#, elixir-autogen, elixir-format
+msgid "Enter your nickname"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:82
+#, elixir-autogen, elixir-format
+msgid "Failed to create session. Please try again."
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:128
+#, elixir-autogen, elixir-format
+msgid "Failed to join session"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:64
+#, elixir-autogen, elixir-format
+msgid "Game session not found"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:125
+#, elixir-autogen, elixir-format
+msgid "Nickname already taken"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:629
+#, elixir-autogen, elixir-format
+msgid "No answer"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:515
+#, elixir-autogen, elixir-format
+msgid "No question provided"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:362
+#: lib/gen_server_io_web/live/truth_or_lie.ex:378
+#, elixir-autogen, elixir-format
+msgid "Not Ready"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:362
+#: lib/gen_server_io_web/live/truth_or_lie.ex:378
+#, elixir-autogen, elixir-format
+msgid "Ready"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:445
+#, elixir-autogen, elixir-format
+msgid "What is my favorite hobby?"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:506
+#, elixir-autogen, elixir-format
+msgid "Your Question"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:633
+#, elixir-autogen, elixir-format
+msgid "✅ Correct!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:528
+#, elixir-autogen, elixir-format
+msgid "✓ TRUTH"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:528
+#, elixir-autogen, elixir-format
+msgid "✗ LIE"
+msgstr ""
+
+#: lib/gen_server_io_web/live/truth_or_lie.ex:633
+#, elixir-autogen, elixir-format
+msgid "❌ Wrong"
+msgstr ""

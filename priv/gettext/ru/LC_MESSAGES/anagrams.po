@@ -1,0 +1,81 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: ru\n"
+
+#: lib/gen_server_io_web/live/anagrams.ex:180
+#, elixir-autogen, elixir-format
+msgid "Cannot submit word"
+msgstr "Невозможно отправить слово"
+
+#: lib/gen_server_io_web/live/anagrams.ex:461
+#, elixir-autogen, elixir-format
+msgid "Click to copy game link"
+msgstr "Нажмите, чтобы скопировать ссылку на игру"
+
+#: lib/gen_server_io_web/live/anagrams.ex:860
+#, elixir-autogen, elixir-format
+msgid "English"
+msgstr "Английский"
+
+#: lib/gen_server_io_web/live/anagrams.ex:423
+#, elixir-autogen, elixir-format
+msgid "Enter your nickname"
+msgstr "Введите ваш никнейм"
+
+#: lib/gen_server_io_web/live/anagrams.ex:154
+#, elixir-autogen, elixir-format
+msgid "Failed to create session. Please try again."
+msgstr "Не удалось создать сессию. Пожалуйста, попробуйте снова."
+
+#: lib/gen_server_io_web/live/anagrams.ex:177
+#, elixir-autogen, elixir-format
+msgid "Invalid word"
+msgstr "Неверное слово"
+
+#: lib/gen_server_io_web/live/anagrams.ex:865
+#, elixir-autogen, elixir-format
+msgid "Long (14+)"
+msgstr "Длинные (14+)"
+
+#: lib/gen_server_io_web/live/anagrams.ex:864
+#, elixir-autogen, elixir-format
+msgid "Medium (11-13)"
+msgstr "Средние (11-13)"
+
+#: lib/gen_server_io_web/live/anagrams.ex:94
+#, elixir-autogen, elixir-format
+msgid "Nickname already taken"
+msgstr "Никнейм уже занят"
+
+#: lib/gen_server_io_web/live/anagrams.ex:85
+#, elixir-autogen, elixir-format
+msgid "Nickname cannot be empty"
+msgstr "Никнейм не может быть пустым"
+
+#: lib/gen_server_io_web/live/anagrams.ex:45
+#, elixir-autogen, elixir-format
+msgid "Session not found"
+msgstr "Сессия не найдена"
+
+#: lib/gen_server_io_web/live/anagrams.ex:863
+#, elixir-autogen, elixir-format
+msgid "Short (8-10)"
+msgstr "Короткие (8-10)"
+
+#: lib/gen_server_io_web/live/anagrams.ex:634
+#, elixir-autogen, elixir-format
+msgid "Type a word..."
+msgstr "Введите слово..."
+
+#: lib/gen_server_io_web/live/anagrams.ex:174
+#, elixir-autogen, elixir-format
+msgid "You already submitted this word"
+msgstr "Вы уже отправили это слово"

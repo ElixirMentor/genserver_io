@@ -1,0 +1,298 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+
+#: lib/gen_server_io_web/live/alias.ex:556
+#, elixir-autogen, elixir-format
+msgid "Alias"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:57
+#, elixir-autogen, elixir-format
+msgid "Alias Game Lobby"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:280
+#: lib/gen_server_io_web/live/alias.ex:283
+#, elixir-autogen, elixir-format
+msgid "Any ready player can start the game"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:1123
+#: lib/gen_server_io_web/live/alias.ex:1138
+#, elixir-autogen, elixir-format
+msgid "Cannot change teams during active gameplay"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:568
+#, elixir-autogen, elixir-format
+msgid "Choose difficulty"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:33
+#, elixir-autogen, elixir-format
+msgid "Choose your nickname"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:91
+#, elixir-autogen, elixir-format
+msgid "Click to copy"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:648
+#, elixir-autogen, elixir-format
+msgid "Create New Game"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:186
+#, elixir-autogen, elixir-format
+msgid "Create New Team"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:558
+#, elixir-autogen, elixir-format
+msgid "Create a game session and invite your friends to play!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:306
+#, elixir-autogen, elixir-format
+msgid "Current Team"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:64
+#: lib/gen_server_io_web/live/alias.ex:68
+#: lib/gen_server_io_web/live/alias.ex:585
+#, elixir-autogen, elixir-format
+msgid "Difficult"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:62
+#: lib/gen_server_io_web/live/alias.ex:66
+#: lib/gen_server_io_web/live/alias.ex:580
+#, elixir-autogen, elixir-format
+msgid "Easy"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:39
+#, elixir-autogen, elixir-format
+msgid "Enter your nickname"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:1108
+#, elixir-autogen, elixir-format
+msgid "Failed to join session"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:518
+#, elixir-autogen, elixir-format
+msgid "Final Scores"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:514
+#, elixir-autogen, elixir-format
+msgid "Game Over!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:1003
+#: lib/gen_server_io_web/live/alias.ex:1034
+#: lib/gen_server_io_web/live/alias.ex:1059
+#, elixir-autogen, elixir-format
+msgid "Game URL copied to clipboard!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:743
+#, elixir-autogen, elixir-format
+msgid "Game session not found"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:22
+#: lib/gen_server_io_web/live/alias.ex:48
+#, elixir-autogen, elixir-format
+msgid "Join Game"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:176
+#, elixir-autogen, elixir-format
+msgid "Join Team"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:630
+#, elixir-autogen, elixir-format
+msgid "Language"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:168
+#, elixir-autogen, elixir-format
+msgid "Leave Team"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:407
+#, elixir-autogen, elixir-format
+msgid "Listen and guess the words!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:63
+#: lib/gen_server_io_web/live/alias.ex:67
+#: lib/gen_server_io_web/live/alias.ex:69
+#: lib/gen_server_io_web/live/alias.ex:582
+#, elixir-autogen, elixir-format
+msgid "Medium"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:289
+#, elixir-autogen, elixir-format
+msgid "Need at least 2 players in teams, all ready"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:385
+#, elixir-autogen, elixir-format
+msgid "Next"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:504
+#, elixir-autogen, elixir-format
+msgid "Next Round"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:1111
+#, elixir-autogen, elixir-format
+msgid "Please enter a valid nickname"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:73
+#: lib/gen_server_io_web/live/alias.ex:605
+#: lib/gen_server_io_web/live/alias.ex:608
+#: lib/gen_server_io_web/live/alias.ex:611
+#: lib/gen_server_io_web/live/alias.ex:614
+#: lib/gen_server_io_web/live/alias.ex:617
+#: lib/gen_server_io_web/live/alias.ex:620
+#, elixir-autogen, elixir-format
+msgid "Points"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:595
+#, elixir-autogen, elixir-format
+msgid "Points to win"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:237
+#: lib/gen_server_io_web/live/alias.ex:239
+#, elixir-autogen, elixir-format
+msgid "Ready"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:442
+#, elixir-autogen, elixir-format
+msgid "Round Complete"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:302
+#, elixir-autogen, elixir-format
+msgid "Round in Progress"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:463
+#, elixir-autogen, elixir-format
+msgid "Score Words"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:443
+#, elixir-autogen, elixir-format
+msgid "Score the words from this round"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:111
+#, elixir-autogen, elixir-format
+msgid "Score:"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:86
+#, elixir-autogen, elixir-format
+msgid "Share this link:"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:61
+#: lib/gen_server_io_web/live/alias.ex:65
+#: lib/gen_server_io_web/live/alias.ex:578
+#, elixir-autogen, elixir-format
+msgid "Simple"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:268
+#, elixir-autogen, elixir-format
+msgid "Start Game"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:308
+#, elixir-autogen, elixir-format
+msgid "Team %{number}"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:191
+#, elixir-autogen, elixir-format
+msgid "Team changes are locked during gameplay"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:105
+#, elixir-autogen, elixir-format
+msgid "Teams"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:1104
+#, elixir-autogen, elixir-format
+msgid "This nickname is already taken. Please choose a different one."
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:312
+#, elixir-autogen, elixir-format
+msgid "Time Left"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:391
+#, elixir-autogen, elixir-format
+msgid "Time's up!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:118
+#: lib/gen_server_io_web/live/alias.ex:403
+#, elixir-autogen, elixir-format
+msgid "Unknown"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:201
+#, elixir-autogen, elixir-format
+msgid "Waiting Room"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:276
+#, elixir-autogen, elixir-format
+msgid "Waiting for %{name} to start the game"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:414
+#, elixir-autogen, elixir-format
+msgid "Word hidden - listen to the explanation!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:426
+#, elixir-autogen, elixir-format
+msgid "Words This Round"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:354
+#, elixir-autogen, elixir-format
+msgid "You're explaining!"
+msgstr ""
+
+#: lib/gen_server_io_web/live/alias.ex:404
+#, elixir-autogen, elixir-format
+msgid "is explaining"
+msgstr ""

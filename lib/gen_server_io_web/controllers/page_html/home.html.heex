@@ -1,0 +1,146 @@
+<div class="min-h-screen bg-gradient-to-br from-primary/10 via-base-100 to-secondary/10">
+  <div class="container mx-auto px-4 py-12">
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <h1 class="text-6xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+        GenServer.io
+      </h1>
+      <p class="text-xl text-base-content/70 max-w-2xl mx-auto">
+        Online real-time games powered by Elixir, Phoenix, LiveView & GenServer
+      </p>
+    </div>
+    
+<!-- Games Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- Alias Game Card -->
+      <a
+        href="/alias"
+        class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+      >
+        <div class="card-body">
+          <div class="flex items-center justify-between mb-4">
+            <div class="text-5xl">🎯</div>
+            <div class="badge badge-primary">Live</div>
+          </div>
+          <h2 class="card-title text-2xl group-hover:text-primary transition-colors">
+            Alias
+          </h2>
+          <p class="text-base-content/70">
+            Fast-paced word guessing game. Explain words to your team without saying them directly. Race against time!
+          </p>
+          <div class="card-actions justify-between items-center mt-4">
+            <div class="flex gap-2">
+              <div class="badge badge-sm badge-outline">2-12 players</div>
+              <div class="badge badge-sm badge-outline">Team-based</div>
+            </div>
+            <button class="btn btn-sm btn-primary">
+              Play →
+            </button>
+          </div>
+        </div>
+      </a>
+      
+<!-- Anagrams Game Card -->
+      <a
+        href="/anagrams"
+        class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+      >
+        <div class="card-body">
+          <div class="flex items-center justify-between mb-4">
+            <div class="text-5xl">🔤</div>
+            <div class="badge badge-primary">Live</div>
+          </div>
+          <h2 class="card-title text-2xl group-hover:text-primary transition-colors">
+            Anagrams
+          </h2>
+          <p class="text-base-content/70">
+            Create words from scrambled letters. Compete with friends and vote on word validity in real-time.
+          </p>
+          <div class="card-actions justify-between items-center mt-4">
+            <div class="flex gap-2">
+              <div class="badge badge-sm badge-outline">2-8 players</div>
+              <div class="badge badge-sm badge-outline">Competitive</div>
+            </div>
+            <button class="btn btn-sm btn-primary">
+              Play →
+            </button>
+          </div>
+        </div>
+      </a>
+      
+<!-- Truth or Lie Game Card -->
+      <a
+        href="/truth_or_lie"
+        class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+      >
+        <div class="card-body">
+          <div class="flex items-center justify-between mb-4">
+            <div class="text-5xl">🎭</div>
+            <div class="badge badge-primary">Live</div>
+          </div>
+          <h2 class="card-title text-2xl group-hover:text-primary transition-colors">
+            Truth or Lie
+          </h2>
+          <p class="text-base-content/70">
+            Guess which statements are true and which are lies. Test your deception detection skills!
+          </p>
+          <div class="card-actions justify-between items-center mt-4">
+            <div class="flex gap-2">
+              <div class="badge badge-sm badge-outline">2-8 players</div>
+              <div class="badge badge-sm badge-outline">Party game</div>
+            </div>
+            <button class="btn btn-sm btn-primary">
+              Play →
+            </button>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+<!-- Features Section -->
+    <div class="mt-20 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-4">Why GenServer.io?</h2>
+      <p class="text-center text-base-content/60 mb-12 max-w-2xl mx-auto">
+        A fun way to learn Elixir, Phoenix LiveView, and GenServer patterns through real-world game development
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-4">
+          <div class="text-4xl mb-3">⚡</div>
+          <h3 class="text-lg font-semibold mb-2">Real-time LiveView</h3>
+          <p class="text-sm text-base-content/60">
+            Instant multiplayer updates with Phoenix LiveView. No polling, no refresh - just pure WebSocket magic
+          </p>
+        </div>
+        <div class="text-center p-4">
+          <div class="text-4xl mb-3">🎯</div>
+          <h3 class="text-lg font-semibold mb-2">GenServer Simplicity</h3>
+          <p class="text-sm text-base-content/60">
+            Each game session = one GenServer process. Clean OTP patterns make complex multiplayer surprisingly simple
+          </p>
+        </div>
+        <div class="text-center p-4">
+          <div class="text-4xl mb-3">💪</div>
+          <h3 class="text-lg font-semibold mb-2">Elixir's Power</h3>
+          <p class="text-sm text-base-content/60">
+            Built on BEAM VM. Thousands of concurrent games, automatic fault tolerance, minimal code complexity
+          </p>
+        </div>
+      </div>
+    </div>
+    
+<!-- Footer -->
+    <footer class="text-center mt-20 text-base-content/50">
+      <p>
+        Made by <a href="https://1703.lu">1703.lu</a>
+        with ❤️ using <a href="https://elixir-lang.org/">Elixir</a>
+        & <a href="https://www.phoenixframework.org/">Phoenix LiveView</a>
+      </p>
+      <p class="mt-2">
+        <a href="https://github.com/lalabuy948/genserver_io">
+          Open source • Made for fun and learning
+        </a>
+      </p>
+    </footer>
+  </div>
+</div>
