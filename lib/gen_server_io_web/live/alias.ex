@@ -29,7 +29,10 @@ defmodule GenServerIoWeb.AliasLive do
                     class="space-y-4"
                   >
                     <div>
-                      <label for="nickname-input" class="block text-sm font-medium text-base-content mb-2">
+                      <label
+                        for="nickname-input"
+                        class="block text-sm font-medium text-base-content mb-2"
+                      >
                         {dgettext("alias", "Choose your nickname")}
                       </label>
                       <input
@@ -115,7 +118,10 @@ defmodule GenServerIoWeb.AliasLive do
                             <%= for member_id <- team.members do %>
                               <% player =
                                 Map.get(@game_state, :players, %{})
-                                |> Map.get(member_id, %{nickname: dgettext("alias", "Unknown"), ready: false}) %>
+                                |> Map.get(member_id, %{
+                                  nickname: dgettext("alias", "Unknown"),
+                                  ready: false
+                                }) %>
                               <% designated_explainer =
                                 if @game_state.current_explainer &&
                                      Map.has_key?(@game_state.players, @game_state.current_explainer) do
@@ -183,12 +189,17 @@ defmodule GenServerIoWeb.AliasLive do
                       <div class="flex gap-2">
                         <%= unless @game_state.phase == :playing do %>
                           <button phx-click="join_team" phx-value-team="new" class="btn btn-primary">
-                            <.icon name="hero-plus" class="w-4 h-4" /> {dgettext("alias", "Create New Team")}
+                            <.icon name="hero-plus" class="w-4 h-4" /> {dgettext(
+                              "alias",
+                              "Create New Team"
+                            )}
                           </button>
                         <% else %>
                           <div class="alert alert-info">
                             <.icon name="hero-information-circle" class="w-6 h-6" />
-                            <span>{dgettext("alias", "Team changes are locked during gameplay")}</span>
+                            <span>
+                              {dgettext("alias", "Team changes are locked during gameplay")}
+                            </span>
                           </div>
                         <% end %>
                       </div>
@@ -265,7 +276,10 @@ defmodule GenServerIoWeb.AliasLive do
 
                             <%= if can_user_start do %>
                               <button phx-click="start_game" class="btn btn-accent w-full">
-                                <.icon name="hero-play" class="w-5 h-5" /> {dgettext("alias", "Start Game")}
+                                <.icon name="hero-play" class="w-5 h-5" /> {dgettext(
+                                  "alias",
+                                  "Start Game"
+                                )}
                               </button>
                             <% else %>
                               <div class="text-sm opacity-75 text-center">
@@ -305,7 +319,9 @@ defmodule GenServerIoWeb.AliasLive do
                     <div class="stat">
                       <div class="stat-title">{dgettext("alias", "Current Team")}</div>
                       <div class="stat-value text-lg">
-                        {dgettext("alias", "Team %{number}", number: Map.get(@game_state, :current_team, 0) + 1)}
+                        {dgettext("alias", "Team %{number}",
+                          number: Map.get(@game_state, :current_team, 0) + 1
+                        )}
                       </div>
                     </div>
                     <div class="stat">
@@ -351,7 +367,9 @@ defmodule GenServerIoWeb.AliasLive do
                   <!-- Explainer View -->
                   <div class="card bg-base-100 shadow-xl">
                     <div class="card-body text-center">
-                      <h2 class="card-title justify-center">{dgettext("alias", "You're explaining!")}</h2>
+                      <h2 class="card-title justify-center">
+                        {dgettext("alias", "You're explaining!")}
+                      </h2>
 
                       <%= if @game_state.current_word do %>
                         <div class="bg-primary text-primary-content p-8 rounded-lg mb-6">
@@ -382,7 +400,10 @@ defmodule GenServerIoWeb.AliasLive do
                               phx-value-action="next"
                               class="btn btn-primary btn-lg"
                             >
-                              <.icon name="hero-arrow-right" class="w-6 h-6" /> {dgettext("alias", "Next")}
+                              <.icon name="hero-arrow-right" class="w-6 h-6" /> {dgettext(
+                                "alias",
+                                "Next"
+                              )}
                             </button>
                           </div>
                         <% else %>
@@ -423,7 +444,9 @@ defmodule GenServerIoWeb.AliasLive do
                 <%= if length(@game_state.words_used) > 0 do %>
                   <div class="card bg-base-100 shadow-xl mt-6">
                     <div class="card-body text-center">
-                      <h3 class="card-title justify-center">{dgettext("alias", "Words This Round")}</h3>
+                      <h3 class="card-title justify-center">
+                        {dgettext("alias", "Words This Round")}
+                      </h3>
                       <div class="flex flex-col items-center gap-2 mt-4">
                         <%= for word_data <- Enum.reverse(@game_state.words_used) do %>
                           <div class="text-lg font-medium">
@@ -501,7 +524,8 @@ defmodule GenServerIoWeb.AliasLive do
 
                     <div class="card-actions justify-center mt-6">
                       <button phx-click="next_round" class="btn btn-primary btn-lg">
-                        {dgettext("alias", "Next Round")} <.icon name="hero-arrow-right" class="w-5 h-5" />
+                        {dgettext("alias", "Next Round")}
+                        <.icon name="hero-arrow-right" class="w-5 h-5" />
                       </button>
                     </div>
                   </div>
@@ -577,7 +601,9 @@ defmodule GenServerIoWeb.AliasLive do
                     <option value="simple" selected={@difficulty == :simple}>
                       {dgettext("alias", "Simple")}
                     </option>
-                    <option value="easy" selected={@difficulty == :easy}>{dgettext("alias", "Easy")}</option>
+                    <option value="easy" selected={@difficulty == :easy}>
+                      {dgettext("alias", "Easy")}
+                    </option>
                     <option value="medium" selected={@difficulty == :medium}>
                       {dgettext("alias", "Medium")}
                     </option>
@@ -1120,7 +1146,11 @@ defmodule GenServerIoWeb.AliasLive do
 
       {:error, :no_team_changes_during_play} ->
         {:noreply,
-         put_flash(socket, :error, dgettext("alias", "Cannot change teams during active gameplay"))}
+         put_flash(
+           socket,
+           :error,
+           dgettext("alias", "Cannot change teams during active gameplay")
+         )}
 
       {:error, _reason} ->
         {:noreply, put_flash(socket, :error, "Failed to join team")}
@@ -1135,7 +1165,11 @@ defmodule GenServerIoWeb.AliasLive do
 
       {:error, :no_team_changes_during_play} ->
         {:noreply,
-         put_flash(socket, :error, dgettext("alias", "Cannot change teams during active gameplay"))}
+         put_flash(
+           socket,
+           :error,
+           dgettext("alias", "Cannot change teams during active gameplay")
+         )}
 
       {:error, _reason} ->
         {:noreply, put_flash(socket, :error, "Failed to leave team")}

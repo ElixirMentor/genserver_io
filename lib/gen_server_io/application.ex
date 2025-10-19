@@ -20,6 +20,9 @@ defmodule GenServerIo.Application do
       # Truth or Lie game infrastructure
       {Registry, keys: :unique, name: GenServerIo.TruthOrLie.Registry},
       {DynamicSupervisor, name: GenServerIo.TruthOrLie.Supervisor, strategy: :one_for_one},
+      # Wordle Battle game infrastructure
+      {Registry, keys: :unique, name: GenServerIo.WordleBattle.Registry},
+      {DynamicSupervisor, name: GenServerIo.WordleBattle.Supervisor, strategy: :one_for_one},
       # Start to serve requests, typically the last entry
       GenServerIoWeb.Endpoint
     ]

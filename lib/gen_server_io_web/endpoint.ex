@@ -27,7 +27,7 @@ defmodule GenServerIoWeb.Endpoint do
     only: GenServerIoWeb.static_paths()
 
   if Code.ensure_loaded?(Tidewave) do
-      plug Tidewave
+    plug Tidewave
   end
 
   # Code reloading can be explicitly enabled under the

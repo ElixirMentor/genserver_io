@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2\n"
+
+msgid "1 minute"
+msgstr "1 minute"
+
+msgid "3 minutes"
+msgstr "3 minutes"
+
+msgid "5 minutes"
+msgstr "5 minutes"
+
+msgid "Attempt"
+msgstr "Attempt"
+
+msgid "Avg:"
+msgstr "Avg:"
+
+msgid "attempts"
+msgstr "attempts"
+
+msgid "Choose your nickname"
+msgstr "Choose your nickname"
+
+msgid "Competitive word-guessing game"
+msgstr "Competitive word-guessing game"
+
+msgid "Create Game"
+msgstr "Create Game"
+
+msgid "Duration:"
+msgstr "Duration:"
+
+msgid "Earn points for quick guesses"
+msgstr "Earn points for quick guesses"
+
+msgid "Enter guess"
+msgstr "Enter guess"
+
+msgid "Enter your nickname"
+msgstr "Enter your nickname"
+
+msgid "Failed to join session"
+msgstr "Failed to join session"
+
+msgid "Final Rankings"
+msgstr "Final Rankings"
+
+msgid "Game Duration"
+msgstr "Game Duration"
+
+msgid "Game Over!"
+msgstr "Game Over!"
+
+msgid "Guess 5-letter words in 6 tries"
+msgstr "Guess 5-letter words in 6 tries"
+
+msgid "Highest score wins!"
+msgstr "Highest score wins!"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "How to Play"
+msgstr "How to Play"
+
+msgid "Invalid guess"
+msgstr "Invalid guess"
+
+msgid "Join Game"
+msgstr "Join Game"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+msgid "min"
+msgstr "min"
+
+msgid "Must be exactly 5 letters"
+msgstr "Must be exactly 5 letters"
+
+msgid "New Game"
+msgstr "New Game"
+
+msgid "Nickname already taken"
+msgstr "Nickname already taken"
+
+msgid "Not in word list"
+msgstr "Not in word list"
+
+msgid "Not Ready"
+msgstr "Not Ready"
+
+msgid "Players"
+msgstr "Players"
+
+msgid "points"
+msgstr "points"
+
+msgid "Race against other players"
+msgstr "Race against other players"
+
+msgid "Ready"
+msgstr "Ready"
+
+msgid "Score:"
+msgstr "Score:"
+
+msgid "Session not found"
+msgstr "Session not found"
+
+msgid "Share this link:"
+msgstr "Share this link:"
+
+msgid "Start Game"
+msgstr "Start Game"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Waiting for players..."
+msgstr "Waiting for players..."
+
+msgid "Winner"
+msgstr "Winner"
+
+msgid "Words:"
+msgstr "Words:"
+
+msgid "words"
+msgstr "words"
+
+msgid "Wordle Battle"
+msgstr "Wordle Battle"
+
+msgid "Wordle Battle Lobby"
+msgstr "Wordle Battle Lobby"

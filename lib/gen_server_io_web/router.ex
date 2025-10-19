@@ -30,6 +30,10 @@ defmodule GenServerIoWeb.Router do
     # Truth or Lie game routes
     live "/truth_or_lie", TruthOrLieLive
     live "/truth_or_lie/:session_id", TruthOrLieLive
+
+    # Wordle Battle game routes
+    live "/wordle_battle", WordleBattleLive
+    live "/wordle_battle/:session_id", WordleBattleLive
   end
 
   # Other scopes may use custom stacks.

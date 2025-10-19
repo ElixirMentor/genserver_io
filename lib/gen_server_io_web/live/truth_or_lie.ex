@@ -80,7 +80,10 @@ defmodule GenServerIoWeb.TruthOrLieLive do
       {:error, _reason} ->
         {:noreply,
          socket
-         |> put_flash(:error, dgettext("truth_or_lie", "Failed to create session. Please try again."))
+         |> put_flash(
+           :error,
+           dgettext("truth_or_lie", "Failed to create session. Please try again.")
+         )
          |> push_navigate(to: ~p"/truth_or_lie")}
     end
   end
@@ -374,7 +377,9 @@ defmodule GenServerIoWeb.TruthOrLieLive do
                   "badge",
                   if(player.ready, do: "badge-success", else: "badge-ghost")
                 ]}>
-                  {if player.ready, do: dgettext("truth_or_lie", "Ready"), else: dgettext("truth_or_lie", "Not Ready")}
+                  {if player.ready,
+                    do: dgettext("truth_or_lie", "Ready"),
+                    else: dgettext("truth_or_lie", "Not Ready")}
                 </span>
               </div>
             </div>
@@ -390,7 +395,9 @@ defmodule GenServerIoWeb.TruthOrLieLive do
               if(get_in(@state.players, [@user_id, :ready]), do: "btn-ghost", else: "btn-info")
             ]}
           >
-            {if get_in(@state.players, [@user_id, :ready]), do: dgettext("truth_or_lie", "Not Ready"), else: dgettext("truth_or_lie", "Ready")}
+            {if get_in(@state.players, [@user_id, :ready]),
+              do: dgettext("truth_or_lie", "Not Ready"),
+              else: dgettext("truth_or_lie", "Ready")}
           </button>
 
           <%= if all_ready?(@state) and can_start?(@state) do %>
@@ -413,7 +420,10 @@ defmodule GenServerIoWeb.TruthOrLieLive do
       assigns
       |> assign(:time, assigns.time_remaining || assigns.state.time_remaining)
       |> assign(:player_ready, get_in(assigns.state.players, [assigns.user_id, :ready]) || false)
-      |> assign(:formatted_time, format_time(assigns.time_remaining || assigns.state.time_remaining))
+      |> assign(
+        :formatted_time,
+        format_time(assigns.time_remaining || assigns.state.time_remaining)
+      )
 
     ~H"""
     <div class="max-w-3xl mx-auto p-6">
@@ -510,7 +520,10 @@ defmodule GenServerIoWeb.TruthOrLieLive do
       |> assign(:author_id, get_current_author(assigns.state))
       |> assign(:question, get_current_question(assigns.state))
       |> assign(:is_author, get_current_author(assigns.state) == assigns.user_id)
-      |> assign(:formatted_time, format_time(assigns.time_remaining || assigns.state.time_remaining))
+      |> assign(
+        :formatted_time,
+        format_time(assigns.time_remaining || assigns.state.time_remaining)
+      )
 
     ~H"""
     <div class="max-w-3xl mx-auto p-6">
@@ -527,7 +540,9 @@ defmodule GenServerIoWeb.TruthOrLieLive do
         </div>
 
         <div class="mb-8">
-          <p class="text-xl text-base-content mb-6">{@question.text || dgettext("truth_or_lie", "No question provided")}</p>
+          <p class="text-xl text-base-content mb-6">
+            {@question.text || dgettext("truth_or_lie", "No question provided")}
+          </p>
 
           <%= if @is_author do %>
             <div class="space-y-3">
@@ -540,7 +555,9 @@ defmodule GenServerIoWeb.TruthOrLieLive do
                   "badge",
                   if(answer.is_truth, do: "badge-success", else: "badge-error")
                 ]}>
-                  {if answer.is_truth, do: dgettext("truth_or_lie", "✓ TRUTH"), else: dgettext("truth_or_lie", "✗ LIE")}
+                  {if answer.is_truth,
+                    do: dgettext("truth_or_lie", "✓ TRUTH"),
+                    else: dgettext("truth_or_lie", "✗ LIE")}
                 </span>
               </div>
             </div>
@@ -641,11 +658,15 @@ defmodule GenServerIoWeb.TruthOrLieLive do
                 <span class="text-base-content">
                   {get_in(@state.players, [player_id, :nickname])}
                 </span>
-                <span class="text-base-content/70">→ {guess.guess || dgettext("truth_or_lie", "No answer")}</span>
+                <span class="text-base-content/70">
+                  → {guess.guess || dgettext("truth_or_lie", "No answer")}
+                </span>
               </div>
               <div class="flex items-center gap-3">
                 <span class="font-medium">
-                  {if guess.correct, do: dgettext("truth_or_lie", "✅ Correct!"), else: dgettext("truth_or_lie", "❌ Wrong")}
+                  {if guess.correct,
+                    do: dgettext("truth_or_lie", "✅ Correct!"),
+                    else: dgettext("truth_or_lie", "❌ Wrong")}
                 </span>
                 <span class="text-base-content/70">
                   {if guess.points_awarded > 0, do: "+#{guess.points_awarded} point"}

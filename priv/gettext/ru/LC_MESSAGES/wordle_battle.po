@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Plural-Forms: nplurals=3\n"
+
+msgid "1 minute"
+msgstr "1 минута"
+
+msgid "3 minutes"
+msgstr "3 минуты"
+
+msgid "5 minutes"
+msgstr "5 минут"
+
+msgid "Attempt"
+msgstr "Попытка"
+
+msgid "Avg:"
+msgstr "Сред:"
+
+msgid "attempts"
+msgstr "попыток"
+
+msgid "Choose your nickname"
+msgstr "Выберите свой ник"
+
+msgid "Competitive word-guessing game"
+msgstr "Соревновательная игра в угадывание слов"
+
+msgid "Create Game"
+msgstr "Создать игру"
+
+msgid "Duration:"
+msgstr "Длительность:"
+
+msgid "Earn points for quick guesses"
+msgstr "Зарабатывайте очки за быстрые угадывания"
+
+msgid "Enter guess"
+msgstr "Введите слово"
+
+msgid "Enter your nickname"
+msgstr "Введите свой ник"
+
+msgid "Failed to join session"
+msgstr "Не удалось присоединиться к сессии"
+
+msgid "Final Rankings"
+msgstr "Итоговый рейтинг"
+
+msgid "Game Duration"
+msgstr "Длительность игры"
+
+msgid "Game Over!"
+msgstr "Игра окончена!"
+
+msgid "Guess 5-letter words in 6 tries"
+msgstr "Угадайте 5-буквенные слова за 6 попыток"
+
+msgid "Highest score wins!"
+msgstr "Побеждает самый высокий счёт!"
+
+msgid "Home"
+msgstr "Домой"
+
+msgid "How to Play"
+msgstr "Как играть"
+
+msgid "Invalid guess"
+msgstr "Неверное слово"
+
+msgid "Join Game"
+msgstr "Присоединиться к игре"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Leaderboard"
+msgstr "Таблица лидеров"
+
+msgid "min"
+msgstr "мин"
+
+msgid "Must be exactly 5 letters"
+msgstr "Должно быть ровно 5 букв"
+
+msgid "New Game"
+msgstr "Новая игра"
+
+msgid "Nickname already taken"
+msgstr "Ник уже занят"
+
+msgid "Not in word list"
+msgstr "Слово не в списке"
+
+msgid "Not Ready"
+msgstr "Не готов"
+
+msgid "Players"
+msgstr "Игроки"
+
+msgid "points"
+msgstr "очков"
+
+msgid "Race against other players"
+msgstr "Соревнуйтесь с другими игроками"
+
+msgid "Ready"
+msgstr "Готов"
+
+msgid "Score:"
+msgstr "Счёт:"
+
+msgid "Session not found"
+msgstr "Сессия не найдена"
+
+msgid "Share this link:"
+msgstr "Поделитесь этой ссылкой:"
+
+msgid "Start Game"
+msgstr "Начать игру"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Waiting for players..."
+msgstr "Ожидание игроков..."
+
+msgid "Winner"
+msgstr "Победитель"
+
+msgid "Words:"
+msgstr "Слова:"
+
+msgid "words"
+msgstr "слов"
+
+msgid "Wordle Battle"
+msgstr "Битва Слов"
+
+msgid "Wordle Battle Lobby"
+msgstr "Лобби Битва Слов"

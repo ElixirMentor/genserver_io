@@ -159,7 +159,13 @@ defmodule GenServerIoWeb.AnagramsLive do
         {:noreply, push_navigate(socket, to: ~p"/anagrams/#{session_id}")}
 
       {:error, _reason} ->
-        socket = put_flash(socket, :error, dgettext("anagrams", "Failed to create session. Please try again."))
+        socket =
+          put_flash(
+            socket,
+            :error,
+            dgettext("anagrams", "Failed to create session. Please try again.")
+          )
+
         {:noreply, socket}
     end
   end
